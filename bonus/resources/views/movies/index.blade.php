@@ -10,13 +10,15 @@
             <div class="card">
               <img src="{{$movie->poster}}" alt="">
               <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Body</p>
+                    <h4 class="card-title">{{$movie->title}}</h4>
+                    <p class="card-text">{{$movie->original_title}}</p>
+                    <div>
+                        <span>{{$movie->nationality}} - {{$movie->date}}</span>
+                    </div>
+                    <div class="vote">Vote: {{$movie->vote}}</div>
               </div>
             </div>
-            <h2>{{$movie->title}}</h2>
-
-            
+  
         @endforeach
     </div>
     
