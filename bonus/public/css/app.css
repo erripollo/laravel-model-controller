@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  color: #e50f14;
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+
